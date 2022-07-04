@@ -1,3 +1,12 @@
 <template>
-    <h2> The Header </h2>
+    <h2>{{title}}</h2>
 </template>
+<script>
+export default {
+    data(){
+        return{
+            title:'The Header 2'
+        }
+    }
+}
+</script>
